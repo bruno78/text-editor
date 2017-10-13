@@ -20,6 +20,8 @@ public class MyLinkedList<E> extends AbstractList<E> {
 		size = 0;
 		head = new LLNode<E>(null);
 		tail = new LLNode<E>(null);
+		head.next = tail;
+		tail.prev = head;
 	}
 
 	/**
@@ -28,31 +30,30 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 */
 	public boolean add(E element ) 
 	{
-		// TODO: Implement this method
-		LLNode<E> node = new LLNode<E>(element);
-		node.prev = tail.prev;
-		node.next = tail;
-		tail.prev.next = node;
+		// TODO: Implement this method DONE!!!!
+		if(element == null) {
+			throw new NullPointerException();
+		}
+		
+		// getting the last node
+		LLNode<E> lastNode = tail.prev;	
+		// inserting the newly created node between the tail and last
+		LLNode<E> node = new LLNode<E>(element, lastNode, tail);
+		// Adjusting pointers from lastNode and tail
+		lastNode.next = node;
 		tail.prev = node;
+		
 		size ++;
-		return false;
+		return true;
 	}
 	
-	public void addFront(E element)
-	{
-		LLNode<E> node = new LLNode<E>(element);
-		node.next = head.next;
-		node.prev = node.next.prev; // node
-		node.next.prev = node;
-		head.next = node.prev.next; // node
-		size ++;
-	}
 
 	/** Get the element at position index 
 	 * @throws IndexOutOfBoundsException if the index is out of bounds. */
 	public E get(int index) 
 	{
 		// TODO: Implement this method.
+		
 		return null;
 	}
 
@@ -70,8 +71,8 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	/** Return the size of the list */
 	public int size() 
 	{
-		// TODO: Implement this method
-		return -1;
+		// TODO: Implement this method DONE!!!
+		return size;
 	}
 
 	/** Remove a node at the specified index and return its data element.
@@ -97,7 +98,34 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	{
 		// TODO: Implement this method
 		return null;
-	}   
+	}
+	
+	/**
+	 * get a node at an index position in the list
+	 * @param The index of the node to get
+	 * @return The node node at the index
+	 * @throws IndexOutOfBoundsException if the index is out of bounds.
+	 */
+	private LLNode<E> getNode(int index)
+	{
+		// Check if index is in range
+		if(index > size - 1 || index < 0) {
+			throw new IndexOutOfBoundsException();
+		}
+		// assign appropriate nodes
+		// Starting at the head
+		LLNode<E> prevNode = head;
+		LLNode<E> currentNode;
+		
+		for(int pos = 0; pos < size; pos++){
+			currentNode = prevNode.next;
+			if(pos == index) {
+				return currentNode;
+			}
+			prevNode = currentNode;
+		}
+		return prevNode;
+	}
 }
 
 class LLNode<E> 
@@ -115,11 +143,11 @@ class LLNode<E>
 		this.prev = null;
 		this.next = null;
 	}
-	public LLNode(E e, LLNode<E> prevNode)
+	public LLNode(E e, LLNode<E> prevNode, LLNode<E> nextNode)
 	{
 		this(e);
-		this.next = prevNode.next;
-		prevNode.next = this;
+		this.prev = prevNode;
+		this.next = nextNode;
 	}
 
 }
