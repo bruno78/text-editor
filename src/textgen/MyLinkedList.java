@@ -29,20 +29,23 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	public boolean add(E element ) 
 	{
 		// TODO: Implement this method
-		// LLNode<E> node = new LLNode(element);
-		// this.data = e;
-		// this.prev = null;
-		// this.next = null;
+		LLNode<E> node = new LLNode<E>(element);
+		node.prev = tail.prev;
+		node.next = tail;
+		tail.prev.next = node;
+		tail.prev = node;
+		size ++;
 		return false;
 	}
 	
 	public void addFront(E element)
 	{
-		LLNode node = new LLNode<E>(element);
+		LLNode<E> node = new LLNode<E>(element);
 		node.next = head.next;
 		node.prev = node.next.prev; // node
 		node.next.prev = node;
 		head.next = node.prev.next; // node
+		size ++;
 	}
 
 	/** Get the element at position index 
