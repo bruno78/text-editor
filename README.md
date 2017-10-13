@@ -35,7 +35,7 @@ document.BasicDocument.java
 
 document.EfficientDocument.java
 
-### Week 3 : Interfaces, Linked Lists vs. Arrays, and Correctness
+### [Week 3 : Interfaces, Linked Lists vs. Arrays, and Correctness](https://github.com/bruno78/text-editor/tree/master/src/textgen)
 
 textgen.MyLinkedList*.java
 
