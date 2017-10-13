@@ -25,13 +25,13 @@ which will help to test and demonstrate students implementations.
 Below are the files introduced in each week and used in each week
 of the course. See file for description...
 
-### Week 1 : Introduction and Working with Strings
+### [Week 1 : Introduction and Working with Strings](https://github.com/bruno78/text-editor/tree/master/src/document)
 
 document.Document.java
 
 document.BasicDocument.java
 
-### Week 2 : Efficiency Analysis and Benchmarking
+### [Week 2 : Efficiency Analysis and Benchmarking](https://github.com/bruno78/text-editor/tree/master/src/document)
 
 document.EfficientDocument.java
 
@@ -43,7 +43,7 @@ textgen.MarkovTextGenerator.java
 
 textgen.MarkovTextGenerator*.java
 
-### Week 4 : Trees! (including Binary Search Trees and Tries)
+### [Week 4 : Trees! (including Binary Search Trees and Tries)](https://github.com/bruno78/text-editor/tree/master/src/spelling)
 
 spelling.SpellingSuggest.java
 
@@ -57,7 +57,7 @@ spelling.AutoCompleteDictionaryTrie.java
 
 spelling.TrieNode.java
 
-### Week 5 : Hash Maps and Edit Distance
+### [Week 5 : Hash Maps and Edit Distance](https://github.com/bruno78/text-editor/tree/master/src/spelling)
 
 spelling.WordPath.java
 
