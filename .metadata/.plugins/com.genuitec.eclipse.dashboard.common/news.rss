@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Genuitec</title>
+	<atom:link href="https://www.genuitec.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.genuitec.com</link>
+	<description>The Cloud Control Company</description>
+	<lastBuildDate>Thu, 28 Sep 2017 17:06:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.6.1</generator>
+	<item>
+		<title>Hackathons Going Virtual with CodeTogether</title>
+		<link>https://www.genuitec.com/hackathons-going-virtual-codetogether/</link>
+		<pubDate>Tue, 26 Sep 2017 15:52:05 +0000</pubDate>
+		<dc:creator><![CDATA[Wanda Muriy]]></dc:creator>
+				<category><![CDATA[Bright Ideas]]></category>
+		<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[Programming Tips]]></category>
+		<category><![CDATA[Webclipse]]></category>
+		<category><![CDATA[coder parties]]></category>
+		<category><![CDATA[hackathons]]></category>
+		<category><![CDATA[pair programming]]></category>
+		<category><![CDATA[remote pair programming]]></category>
+		<category><![CDATA[virtual coder parties]]></category>
+		<category><![CDATA[virtual hackathons]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=537687</guid>
+		<description><![CDATA[<p>In the coding world, collaboration has been taking place in the form of coding parties, retreats or hackathons, and, more recently, through new technologies that allow for virtual exchanges. Many might argue long and hard, giving preference to one over the other, but what’s the deal behind each one? Partying &#8216;developer-style&#8217;The word “party” normally conjures up [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/hackathons-going-virtual-codetogether/">Hackathons Going Virtual with CodeTogether</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>TypeScript 2.4 &#8212; Even More Reasons to Love it!</title>
+		<link>https://www.genuitec.com/typescript-2-4-even-more-reasons-to-love-it/</link>
+		<pubDate>Fri, 22 Sep 2017 16:55:59 +0000</pubDate>
+		<dc:creator><![CDATA[Wanda Muriy]]></dc:creator>
+				<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[Programming Tips]]></category>
+		<category><![CDATA[Webclipse]]></category>
+		<category><![CDATA[typescript]]></category>
+		<category><![CDATA[typescript 2.4]]></category>
+		<category><![CDATA[typescript features]]></category>
+		<category><![CDATA[using typescript]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=534301</guid>
+		<description><![CDATA[<p>Perhaps you are already enjoying all the amazing features TypeScript (TS) adds to JavaScript: you might already be in love with its interfaces, abstract classes, and algebraic data types, among many others. TS 2.4 brings more good news. This version of TS comes loaded with improvements, ranging from dynamic import expressions to weak type detection.ModulesNeed [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/typescript-2-4-even-more-reasons-to-love-it/">TypeScript 2.4 &#8212; Even More Reasons to Love it!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>2017 CI 8 Keeps Adding to the Treasure Chest</title>
+		<link>https://www.genuitec.com/2017-ci-8-keeps-adding-to-the-treasure-chest/</link>
+		<pubDate>Tue, 19 Sep 2017 13:54:40 +0000</pubDate>
+		<dc:creator><![CDATA[Wanda Muriy]]></dc:creator>
+				<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[MyEclipse Top News]]></category>
+		<category><![CDATA[Programming Tips]]></category>
+		<category><![CDATA[Webclipse]]></category>
+		<category><![CDATA[2017 CI 8 release]]></category>
+		<category><![CDATA[software updates]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=536741</guid>
+		<description><![CDATA[<p>Good news &#8211; our new release is out the door! For Angular IDE and Webclipse, we give you access to a brand new Eclipse experience with our DevStyle Preview. MyEclipse includes some key bug fixes in the Spring / Maven project area, and a new version of the Eclipse Buildship toolset, for improved Gradle support. [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/2017-ci-8-keeps-adding-to-the-treasure-chest/">2017 CI 8 Keeps Adding to the Treasure Chest</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Equifax Data Breach Advisory</title>
+		<link>https://www.genuitec.com/equifax-data-breach-advisory/</link>
+		<pubDate>Fri, 15 Sep 2017 19:16:46 +0000</pubDate>
+		<dc:creator><![CDATA[Brian Fernandes]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[Programming Tips]]></category>
+		<category><![CDATA[data breach]]></category>
+		<category><![CDATA[security]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=536886</guid>
+		<description><![CDATA[<p>Many of you may have heard of the Equifax data breach, possibly affecting millions of consumers. Information accessed by hackers during the incident included Social Security numbers, personal details, driver’s license numbers, and even credit card numbers.Equifax has confirmed that the breach was made possible by a vulnerability in the Apache Struts Web Framework, used [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/equifax-data-breach-advisory/">Equifax Data Breach Advisory</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Creating a Bus Fare Comparison App with Angular 4 and Node.js</title>
+		<link>https://www.genuitec.com/creating-bus-fare-comparison-app-angular-4-node-js/</link>
+		<pubDate>Fri, 08 Sep 2017 19:06:39 +0000</pubDate>
+		<dc:creator><![CDATA[Bob at Genuitec]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[Programming Tips]]></category>
+		<category><![CDATA[Webclipse]]></category>
+		<category><![CDATA[angular 4 app]]></category>
+		<category><![CDATA[angular app]]></category>
+		<category><![CDATA[sample angular app]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=536022</guid>
+		<description><![CDATA[<p>In this Angular tutorial, you will learn how to create an app to compare bus fares. We will be using Angular IDE to create our application, which will fetch bus fare data using goibibo&#8217;s web services.Creating a New Angular ProjectIn the new Angular project wizard, enter BusFareCompare as the project name. We used Angular CLI [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/creating-bus-fare-comparison-app-angular-4-node-js/">Creating a Bus Fare Comparison App with Angular 4 and Node.js</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Editors vs IDEs &#8212; What’s Best for You?</title>
+		<link>https://www.genuitec.com/editors-vs-ides-whats-best-for-you/</link>
+		<pubDate>Tue, 05 Sep 2017 14:34:44 +0000</pubDate>
+		<dc:creator><![CDATA[Wanda Muriy]]></dc:creator>
+				<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[Programming Tips]]></category>
+		<category><![CDATA[Webclipse]]></category>
+		<category><![CDATA[Angular]]></category>
+		<category><![CDATA[editors]]></category>
+		<category><![CDATA[IDEs]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=535477</guid>
+		<description><![CDATA[<p>Life is full of choices and dilemmas, and for a developer one of the greatest queries is whether to use a text editor or an Integrated Development Environment (IDE).  Of course, using the latter provides for a much more complete experience, and yet, it might not be an absolute must in all situations. But how [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/editors-vs-ides-whats-best-for-you/">Editors vs IDEs &#8212; What’s Best for You?</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Building Applications with Angular Material</title>
+		<link>https://www.genuitec.com/building-applications-with-angular-material/</link>
+		<pubDate>Fri, 01 Sep 2017 16:45:03 +0000</pubDate>
+		<dc:creator><![CDATA[Bob at Genuitec]]></dc:creator>
+				<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Programming Tips]]></category>
+		<category><![CDATA[Webclipse]]></category>
+		<category><![CDATA[Angular]]></category>
+		<category><![CDATA[angular app]]></category>
+		<category><![CDATA[angular material]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=534990</guid>
+		<description><![CDATA[<p>Angular Material is a set of high-quality UI components developed by the Angular team, based on the Google Material design specification. These components help us to build applications with an attractive, yet familiar UI, giving users a consistent experience across devices.In this Angular tutorial, you will learn how to set up material design in your [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/building-applications-with-angular-material/">Building Applications with Angular Material</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>SDC 2017 SR2 &#8211; Software Delivery Evolving Further</title>
+		<link>https://www.genuitec.com/sdc-2017-sr2-software-delivery-evolving/</link>
+		<pubDate>Mon, 28 Aug 2017 20:10:10 +0000</pubDate>
+		<dc:creator><![CDATA[Wanda Muriy]]></dc:creator>
+				<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[Secure Delivery Center]]></category>
+		<category><![CDATA[import third-party software]]></category>
+		<category><![CDATA[SDC]]></category>
+		<category><![CDATA[Software Delivery]]></category>
+		<category><![CDATA[third-party library updates]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=535040</guid>
+		<description><![CDATA[<p>Perhaps you&#8217;re already a fan of the delicious combo offered by our Secure Delivery Center (SDC) &#8212; you get the right software to your teams and manage a variety of actions (licenses, software updates, rollouts and standardization).  With our new version of SDC, we are bringing even more yummy features to the table!What is included in [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/sdc-2017-sr2-software-delivery-evolving/">SDC 2017 SR2 &#8211; Software Delivery Evolving Further</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Working with Java 9 in Eclipse</title>
+		<link>https://www.genuitec.com/working-java-9-eclipse/</link>
+		<pubDate>Thu, 24 Aug 2017 14:19:50 +0000</pubDate>
+		<dc:creator><![CDATA[Brian Fernandes]]></dc:creator>
+				<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Planet Eclipse]]></category>
+		<category><![CDATA[Programming Tips]]></category>
+		<category><![CDATA[Webclipse]]></category>
+		<category><![CDATA[Java EE]]></category>
+		<category><![CDATA[webclipse]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=534701</guid>
+		<description><![CDATA[<p>The Java 9 general availability release is just under a month away, but the builds available right now are already feature complete. If you can’t wait to try some Java 9 capabilities, you can start developing with Java 9 in Eclipse, right now!Installing the Java 9 SupportYou need an Oxygen based install of Eclipse &#8211; ensure [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/working-java-9-eclipse/">Working with Java 9 in Eclipse</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>With Genuitec, updates are free!</title>
+		<link>https://www.genuitec.com/genuitec-updates-free/</link>
+		<pubDate>Thu, 17 Aug 2017 20:22:27 +0000</pubDate>
+		<dc:creator><![CDATA[Wanda Muriy]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[Webclipse]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=534195</guid>
+		<description><![CDATA[<p>Did you know that you already have access to the latest Genuitec products, as a licensed user? This includes brand new releases &#8211; there&#8217;s no need to buy a new version when it is released.Perhaps you have gone all the way and purchased MyEclipse, our Java IDE that includes the best tools for dynamic frontend and [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/genuitec-updates-free/">With Genuitec, updates are free!</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Realtime Server Monitoring App with Angular 4 , Node.js &#038; Chart.js</title>
+		<link>https://www.genuitec.com/realtime-server-monitoring-app-angular-4-node-js-chart-js/</link>
+		<pubDate>Mon, 14 Aug 2017 20:25:55 +0000</pubDate>
+		<dc:creator><![CDATA[Bob at Genuitec]]></dc:creator>
+				<category><![CDATA[Genuitec]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=533461</guid>
+		<description><![CDATA[<p>This article will show you how to build a very simple monitor that allows you to observe some OS parameters, such as free memory available. We will be using Node.js, Angular 4, and Chart.js &#8211; and all you need is Angular IDE.We will be creating two applications; the first is a Node application that will [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/realtime-server-monitoring-app-angular-4-node-js-chart-js/">Realtime Server Monitoring App with Angular 4 , Node.js &amp; Chart.js</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Navigating through an Angular Project</title>
+		<link>https://www.genuitec.com/navigating-angular-project/</link>
+		<pubDate>Thu, 10 Aug 2017 15:41:12 +0000</pubDate>
+		<dc:creator><![CDATA[Brian Fernandes]]></dc:creator>
+				<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[Programming Tips]]></category>
+		<category><![CDATA[Webclipse]]></category>
+		<category><![CDATA[Angular]]></category>
+		<category><![CDATA[code navigation]]></category>
+		<category><![CDATA[navigate between files]]></category>
+		<category><![CDATA[navigate within files]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=533342</guid>
+		<description><![CDATA[<p>You might now be familiar with easy cruising through a Webclipse or an Eclipse project after reading our blog or thanks to a personal experience, but what if you are more of an Angular guy or gal? No worries, breezy navigation is also a reality for Angular projects.This video will give you some useful tips [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/navigating-angular-project/">Navigating through an Angular Project</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Enhanced Code Navigation Made Possible with Webclipse</title>
+		<link>https://www.genuitec.com/enhanced-code-navigation-webclipse/</link>
+		<pubDate>Mon, 07 Aug 2017 17:01:17 +0000</pubDate>
+		<dc:creator><![CDATA[Wanda Muriy]]></dc:creator>
+				<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[Programming Tips]]></category>
+		<category><![CDATA[Webclipse]]></category>
+		<category><![CDATA[breadcrumb]]></category>
+		<category><![CDATA[devsearch]]></category>
+		<category><![CDATA[Minimap]]></category>
+		<category><![CDATA[navigation]]></category>
+		<category><![CDATA[projectexplorer]]></category>
+		<category><![CDATA[search]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=532034</guid>
+		<description><![CDATA[<p>There are more reasons to love our Webclipse &#8212; navigating through your Eclipse code is like sailing on a calm, blue sea. Minimap, Breadcrumb Navigation and Project Explorer+ are your unwavering beacons that show you the way to your files and source code, while DevSearch is the compass that will steer you right inside your [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/enhanced-code-navigation-webclipse/">Enhanced Code Navigation Made Possible with Webclipse</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Webscripting Made Easy with JSjet.</title>
+		<link>https://www.genuitec.com/webscripting-made-easy-jsjet/</link>
+		<pubDate>Mon, 31 Jul 2017 16:31:15 +0000</pubDate>
+		<dc:creator><![CDATA[Wanda Muriy]]></dc:creator>
+				<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[Programming Tips]]></category>
+		<category><![CDATA[Webclipse]]></category>
+		<category><![CDATA[code validation]]></category>
+		<category><![CDATA[debugging]]></category>
+		<category><![CDATA[occurence highlighting]]></category>
+		<category><![CDATA[source formatting]]></category>
+		<category><![CDATA[source refactoring]]></category>
+		<category><![CDATA[syntax highlighting]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=532146</guid>
+		<description><![CDATA[<p>So you already know about some cool features our Webclipse has to offer, like CodeLive or Emmet. Here is one more reason for you to put your trust in this Eclipse plug-in &#8212; it comes equipped with JSjet, our tool that simplifies web scripting for JavaScript (JS) and TypeScript (TS). Not only will you be able to code more easily, [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/webscripting-made-easy-jsjet/">Webscripting Made Easy with JSjet.</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+		<item>
+		<title>Faster Coding is a Reality &#8212; Emmet is at Your Service.</title>
+		<link>https://www.genuitec.com/faster-coding-reality-emmet-service/</link>
+		<pubDate>Thu, 27 Jul 2017 14:28:49 +0000</pubDate>
+		<dc:creator><![CDATA[Wanda Muriy]]></dc:creator>
+				<category><![CDATA[Eclipse]]></category>
+		<category><![CDATA[Genuitec]]></category>
+		<category><![CDATA[MyEclipse]]></category>
+		<category><![CDATA[Programming Tips]]></category>
+		<category><![CDATA[Webclipse]]></category>
+		<category><![CDATA[code expansion]]></category>
+		<category><![CDATA[Emmet]]></category>
+		<category><![CDATA[webclipse]]></category>
+
+		<guid isPermaLink="false">https://www.genuitec.com/?p=531771</guid>
+		<description><![CDATA[<p>Being able to see what your app will look like without having to redeploy first is a great thing, thanks to our CodeLive. Want another reason for using Webclipse, our Eclipse plug-in? There are plenty more, actually, but let’s talk about Emmet here.Ready for much higher speed when coding and editing with (X)HTML, CSS, XML, [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.genuitec.com/faster-coding-reality-emmet-service/">Faster Coding is a Reality &#8212; Emmet is at Your Service.</a> appeared first on <a rel="nofollow" href="https://www.genuitec.com">Genuitec</a>.</p>
+]]></description>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 9356/9681 objects using disk
+Page Caching using disk: enhanced (Requested URI is rejected)
+Content Delivery Network via resources.cloud.genuitec.com
+Database Caching 6/48 queries in 1.559 seconds using disk
+
+ Served from: www.genuitec.com @ 2017-09-28 21:03:12 by W3 Total Cache -->
