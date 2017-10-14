@@ -114,7 +114,10 @@ public class MyLinkedListTester {
 		assertEquals("Remove: check element 0 is correct ", (Integer)21, list1.get(0));
 		assertEquals("Remove: check size is correct ", 2, list1.size());
 		
-		// TODO: Add more tests here
+		// TODO: Add more tests here Done!!!
+		int b = list1.head.next.data;
+		assertEquals("Remove: check previous element is correct linked ", 21, b);
+		assertEquals("Remove: check next element is correct linked ", null, list1.head.next.prev.data);
 	}
 	
 	/** Test adding an element into the end of the list, specifically
@@ -124,6 +127,19 @@ public class MyLinkedListTester {
 	public void testAddEnd()
 	{
         // TODO: implement this test
+		int initialSize = list1.size();
+		boolean gotAdded = list1.add(66);
+		int c = list1.tail.prev.prev.data;
+		int d = list1.tail.prev.data;
+		int e = list1.tail.prev.prev.next.data; // 66
+
+		assertEquals("AddEnd: check if gotAdded ", true, gotAdded);
+		assertEquals("AddEnd: chek size is correct ", initialSize + 1, list1.size());
+		assertEquals("AddEnd: check last element is correct ", (Integer)66, list1.get(list1.size()-1));
+		assertEquals("AddEnd: check previous element is correct linked ", 42, c);
+		assertEquals("AddEnd: check next element is correct linked ", 66, d);
+		assertEquals("AddEnd: check previous element is correct linked ", 66, e);
+		assertEquals("AddEnd: check last is correct linked next ", null, list1.tail.prev.next.data);
 		
 	}
 
@@ -133,6 +149,14 @@ public class MyLinkedListTester {
 	public void testSize()
 	{
 		// TODO: implement this test
+		assertEquals("Size: check list is empty ", 0, emptyList.size());		
+		emptyList.add(1);
+		assertEquals("Size: list1 expects one element ", 1, emptyList.size());
+		emptyList.add(3);
+		assertEquals("Size: list1 expects two elements ", 2, emptyList.size());
+		emptyList.remove(0);
+		emptyList.remove(0);
+		assertEquals("Size: list1 excpets to be empty ", 0, emptyList.size());
 	}
 
 	
