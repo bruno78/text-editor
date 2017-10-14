@@ -107,7 +107,9 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	public E set(int index, E element) 
 	{
 		// TODO: Implement this method
-		return null;
+		LLNode<E> nodeToChange = getNode(index);
+		nodeToChange.data = element;
+		return nodeToChange.data;
 	}
 	
 	/**
