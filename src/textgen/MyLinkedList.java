@@ -54,7 +54,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	{
 		// TODO: Implement this method.
 		
-		return null;
+		return getNode(index).data;
 	}
 
 	/**
