@@ -5,8 +5,6 @@ package textgen;
 
 import static org.junit.Assert.*;
 
-import java.util.LinkedList;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -114,10 +112,28 @@ public class MyLinkedListTester {
 		assertEquals("Remove: check element 0 is correct ", (Integer)21, list1.get(0));
 		assertEquals("Remove: check size is correct ", 2, list1.size());
 		
-		// TODO: Add more tests here Done!!!
+		// Add more tests here Done!!!
 		int b = list1.head.next.data;
 		assertEquals("Remove: check previous element is correct linked ", 21, b);
 		assertEquals("Remove: check next element is correct linked ", null, list1.head.next.prev.data);
+		try {
+			list1.remove(-1);
+			fail("Check out of bounds");
+		}
+		catch (IndexOutOfBoundsException e) {
+		}
+		try {
+			emptyList.remove(0);
+			fail("Remove element from empty list");
+		}
+		catch (IndexOutOfBoundsException e) {
+		}
+		try {
+			longerList.remove(30);
+			fail("Check out of bounds");
+		}
+		catch (IndexOutOfBoundsException e){
+		}
 	}
 	
 	/** Test adding an element into the end of the list, specifically
@@ -126,20 +142,21 @@ public class MyLinkedListTester {
 	@Test
 	public void testAddEnd()
 	{
-        // TODO: implement this test
+        // Implement this test
 		int initialSize = list1.size();
 		boolean gotAdded = list1.add(66);
 		int c = list1.tail.prev.prev.data;
 		int d = list1.tail.prev.data;
-		int e = list1.tail.prev.prev.next.data; // 66
+		int nex = list1.tail.prev.prev.next.data; // 66
 
 		assertEquals("AddEnd: check if gotAdded ", true, gotAdded);
 		assertEquals("AddEnd: chek size is correct ", initialSize + 1, list1.size());
 		assertEquals("AddEnd: check last element is correct ", (Integer)66, list1.get(list1.size()-1));
 		assertEquals("AddEnd: check previous element is correct linked ", 42, c);
 		assertEquals("AddEnd: check next element is correct linked ", 66, d);
-		assertEquals("AddEnd: check previous element is correct linked ", 66, e);
+		assertEquals("AddEnd: check previous element is correct linked ", 66, nex);
 		assertEquals("AddEnd: check last is correct linked next ", null, list1.tail.prev.next.data);
+		
 		
 	}
 
@@ -148,7 +165,7 @@ public class MyLinkedListTester {
 	@Test
 	public void testSize()
 	{
-		// TODO: implement this test
+		// Implement this test.
 		assertEquals("Size: check list is empty ", 0, emptyList.size());		
 		emptyList.add(1);
 		assertEquals("Size: list1 expects one element ", 1, emptyList.size());
@@ -168,19 +185,90 @@ public class MyLinkedListTester {
 	@Test
 	public void testAddAtIndex()
 	{
-        // TODO: implement this test
+        // Implement this test.
 		
+		// check initial state of the list
+		assertEquals("Add at index: check current element index ", (Integer)2, longerList.get(2));
+		assertEquals("Add at index: check initial size ", 10, longerList.size());
+		
+		// check state after element was added
+		longerList.add(2, 23);
+		assertEquals("Add at index: check element at index ", (Integer)23, longerList.get(2));
+		assertEquals("Add at index: check previous element is correct ", (Integer)1, longerList.get(1));
+		assertEquals("Add at index: check next element is correct ", (Integer)2, longerList.get(3));
+		assertEquals("Add at index: check size after add element ", 11, longerList.size());
+		
+		// Test against inexistent index. 
+		try {
+			longerList.add(-1, 23);
+			fail("Check out of bounds");
+		}
+		catch (IndexOutOfBoundsException e) {
+			
+		}
+		try {
+			longerList.add(1, null);
+			fail("Check null pointer");
+		}
+		catch (NullPointerException e) {
+		}
+		try {
+			emptyList.add(1, 2);
+			fail("Check out of bounds");
+		}
+		catch (IndexOutOfBoundsException e) {
+		}
+			
 	}
 	
 	/** Test setting an element in the list */
 	@Test
 	public void testSet()
 	{
-	    // TODO: implement this test
+	    // Implement this test.
+		// Initial state of the list
+		assertEquals("Set: check list size ", 10, longerList.size());
+
+		// After set
+	    int old = longerList.set(2, 66);
+	    assertEquals("Set: check element has changed ", (Integer)66, longerList.get(2));
+	    assertEquals("Set: check previous element ", 2, old);
+	    assertEquals("Set: check list size ", 10, longerList.size());
+	    
+	    try {
+	    	list1.set(-1, 34);
+	    	fail("Set negative index");
+	    }
+	    catch (IndexOutOfBoundsException e){
+	    }
+	    try {
+	    	list1.set(4, 4);
+	    	fail("Check out of bounds");
+	    }
+	    catch (IndexOutOfBoundsException e){
+	    }
+	    try {
+	    	emptyList.set(0, 1);
+	    	fail("Check empty list");
+	    }
+	    catch (IndexOutOfBoundsException e){
+	    }
+	    try {
+	    	list1.set(1, null);
+	    	fail("Value set to null");
+	    }
+	    catch (NullPointerException e){
+	    }
 	    
 	}
 	
 	
 	// TODO: Optionally add more test methods.
-	
+	/** Test printing Linked List elements */
+	@Test
+	public void testToString()
+	{
+		assertEquals("toString: check elements print correctly ", "[65, 21, 42]", list1.toString());
+		assertEquals("toString: check empty list is returned ", "[]", emptyList.toString());
+	}
 }

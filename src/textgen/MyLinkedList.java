@@ -1,6 +1,7 @@
 package textgen;
 
 import java.util.AbstractList;
+import java.util.ArrayList;
 
 
 /** A class that implements a doubly linked list
@@ -30,7 +31,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 */
 	public boolean add(E element ) 
 	{
-		// TODO: Implement this method. DONE!!!!
+		// Implement this method.
 		if(element == null) {
 			throw new NullPointerException();
 		}
@@ -52,7 +53,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 * @throws IndexOutOfBoundsException if the index is out of bounds. */
 	public E get(int index) 
 	{
-		// TODO: Implement this method. DONE!!!
+		// Implement this method. 
 		return getNode(index).data;
 	}
 
@@ -64,9 +65,19 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	public void add(int index, E element ) 
 	{
 		// TODO: Implement this method. DONE!!!
+		if(element == null) {
+			throw new NullPointerException();
+		}
+		if (index == 0 && size == 0) {
+			add(element);
+			return;
+		}
+		
 		LLNode<E> nextNode = getNode(index);
 		LLNode<E> prevNode = nextNode.prev;
-		LLNode<E> node = new LLNode(element, prevNode, nextNode);
+		LLNode<E> node = new LLNode<>(element, prevNode, nextNode);
+		prevNode.next = node;
+		nextNode.prev = node;
 		size++;
 		
 	}
@@ -87,7 +98,8 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 */
 	public E remove(int index) 
 	{
-		// TODO: Implement this method
+		// Implement this method
+			
 		LLNode<E> nodeToDelete = getNode(index);
 		LLNode<E> prevNode = nodeToDelete.prev;
 		LLNode<E> nextNode = nodeToDelete.next;
@@ -106,10 +118,29 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 */
 	public E set(int index, E element) 
 	{
-		// TODO: Implement this method
+		// Implement this method.
+		if(element == null) 
+			throw new NullPointerException();
 		LLNode<E> nodeToChange = getNode(index);
+		E replacedElement = nodeToChange.data;
 		nodeToChange.data = element;
-		return nodeToChange.data;
+		return replacedElement;
+	}
+	
+	/**
+	 * get a node at an index position in the list
+	 * @param The index of the node to get
+	 * @return The node node at the index
+	 * @throws IndexOutOfBoundsException if the index is out of bounds.
+	 */
+	public String toString()
+	{
+		ArrayList<E> list= new ArrayList<E>();
+		for(int i = 0; i < this.size(); i++)
+		{
+			list.add(this.get(i));
+		}
+		return list.toString();
 	}
 	
 	/**
