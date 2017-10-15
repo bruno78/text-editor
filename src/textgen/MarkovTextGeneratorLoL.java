@@ -33,6 +33,8 @@ public class MarkovTextGeneratorLoL implements MarkovTextGenerator {
 	public void train(String sourceText)
 	{
 		// Implement this method
+		if (sourceText == null || sourceText =="") return;
+		
 		String[] words = sourceText.split("\\s+");
 		starter = words[0];
 		String prevWord = starter;
@@ -103,7 +105,10 @@ public class MarkovTextGeneratorLoL implements MarkovTextGenerator {
 	@Override
 	public void retrain(String sourceText)
 	{
-		// TODO: Implement this method.
+		// Implement this method.
+		wordList = new LinkedList<>();
+		starter = "";
+		train(sourceText);
 	}
 	
 	// Add any private helper methods you need here.
