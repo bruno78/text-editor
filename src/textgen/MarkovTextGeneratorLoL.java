@@ -33,6 +33,29 @@ public class MarkovTextGeneratorLoL implements MarkovTextGenerator {
 	public void train(String sourceText)
 	{
 		// TODO: Implement this method
+		String[] words = sourceText.split("\\s+");
+		starter = words[0];
+		String prevWord = starter;
+		
+		for (int i = 1; i < words.length; i++) {
+			
+			int index = containsWord(prevWord);
+			
+			if(index != -1) {
+				wordList.get(index).addNextWord(words[i]);
+			}
+			else {
+				ListNode node = new ListNode(prevWord);
+				node.addNextWord(words[i]);
+				wordList.add(node);
+			}
+
+			prevWord = words[i];
+		}
+		
+		ListNode word = new ListNode(words[words.length-1]);
+		word.addNextWord(starter);
+		wordList.add(word);
 	}
 	
 	/** 
@@ -65,7 +88,14 @@ public class MarkovTextGeneratorLoL implements MarkovTextGenerator {
 	}
 	
 	// TODO: Add any private helper methods you need here.
-	
+	private int containsWord(String word){
+		for(int i = 0; i < wordList.size(); i++) {
+			if(wordList.get(i).getWord().equals(word)){
+				return i;
+			}
+		}
+		return -1;
+	}
 	
 	/**
 	 * This is a minimal set of tests.  Note that it can be difficult
@@ -109,6 +139,12 @@ public class MarkovTextGeneratorLoL implements MarkovTextGenerator {
 		gen.retrain(textString2);
 		System.out.println(gen);
 		System.out.println(gen.generateText(20));
+		MarkovTextGeneratorLoL mk = new MarkovTextGeneratorLoL(new Random(42));
+		String str = "hi there hi Leo";
+		System.out.println(str);
+		mk.train(str);
+		System.out.println(mk.toString());
+		
 	}
 
 }

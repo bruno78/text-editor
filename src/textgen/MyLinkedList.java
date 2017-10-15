@@ -17,7 +17,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
 
 	/** Create a new empty LinkedList */
 	public MyLinkedList() {
-		// TODO: Implement this method. DONE!!!
+		// Implement this method.
 		size = 0;
 		head = new LLNode<E>(null);
 		tail = new LLNode<E>(null);
@@ -64,7 +64,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	 */
 	public void add(int index, E element ) 
 	{
-		// TODO: Implement this method. DONE!!!
+		// Implement this method.
 		if(element == null) {
 			throw new NullPointerException();
 		}
@@ -86,7 +86,7 @@ public class MyLinkedList<E> extends AbstractList<E> {
 	/** Return the size of the list */
 	public int size() 
 	{
-		// TODO: Implement this method. DONE!!!
+		// Implement this method.
 		return size;
 	}
 
@@ -177,7 +177,7 @@ class LLNode<E>
 	LLNode<E> next;
 	E data;
 
-	// TODO: Add any other methods you think are useful here
+	// Add any other methods you think are useful here.
 	// E.g. you might want to add another constructor
 
 	public LLNode(E e) 
