@@ -173,7 +173,7 @@ public class AutoCompleteDictionaryTrie implements  Dictionary, AutoComplete {
     			 count++;
     		 }
     		 
-    		 List<Character> charsList = new LinkedList(node.getValidNextCharacters());
+    		 List<Character> charsList = new LinkedList<Character>(node.getValidNextCharacters());
     		 for (int i = 0; i < charsList.size(); i++) {
     			 char c = charsList.get(i);
     			 nodeQueue.add(node.getChild(c));
